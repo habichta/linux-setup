@@ -13,7 +13,7 @@ git clone https://github.com/polaroidkidd/linux-setup.git
 
 # Init Submodules
 cd linux-setup
-git checkout feature/random-wallpaper
+git checkout feature/docker-and-docker-compose
 git submodule update --init --recursive
 
 # update permissions
