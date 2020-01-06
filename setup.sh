@@ -150,6 +150,18 @@ sudo rm /etc/fonts/conf.d/70-no-bitmaps.conf
 sudo fc-cache -f -v
 
 
+# docker
+sudo sh -c "$(curl -fsSL https://get.docker.com -o get-docker.sh)"
+sudo usermod -aG docker $USER
+
+# docker-compose
+sudo curl -L "https://github.com/docker/compose/releases/download/1.25.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+
+
+
+
+
 # Network-Manager
 cd $WORK_PATH
 sudo apt install -y network-manager network-manager-config-connectivity-ubuntu network-manager-gnome
