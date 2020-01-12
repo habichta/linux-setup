@@ -100,14 +100,14 @@ source $ZSH/oh-my-zsh.sh
 #
 
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(
- git
- ssh-agent
-)
+#plugins=(
+# git
+# ssh-agent
+#)
 
-zstyle :omz:plugins:ssh-agent agent-forwarding on
-zstyle :omz:plugins:ssh-agent identities bitbucket.com github.com dae.cdk@ti8m.ch dae@ti8m.ch dle@ebikon pi@ebikon
-zstyle :omz:plugins:ssh-agent lifetime
+#zstyle :omz:plugins:ssh-agent agent-forwarding on
+#zstyle :omz:plugins:ssh-agent identities bitbucket.com github.com dae.cdk@ti8m.ch dae@ti8m.ch dle@ebikon pi@ebikon
+#zstyle :omz:plugins:ssh-agent lifetime
 
 
 
@@ -115,6 +115,7 @@ zstyle :omz:plugins:ssh-agent lifetime
 #####################################################
 ################ BEGIN  ALIAS #######################
 #####################################################
+
 
 
 # Useful Git Commands
@@ -189,16 +190,6 @@ alias cpwd='pwd | xclip -sel clip'
 
 # SNAP
 export PATH="$PATH:/snap/bin"
-
-# work aliases
-source ~/.aliases/ti8m
-
-
-#####################################################
-################ BEGIN  ENVS  #######################
-#####################################################
-source ~/.envs/digital-ocean
-
 
 #####################################################
 ################ BEGIN  PROGS #######################
