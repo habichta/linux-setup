@@ -1,4 +1,6 @@
-# Linux-Setup for dell xps 9370
+# Linux-Setup for dell xps 9560
+
+Based on: Linux-Setup for dell xps 9370
 
 This setup script will install and configure i3-gaps with TryOne's Compton implementation for a frosted-glass terminal and rofi. This script has been tested on a clean (completly empty) Ubuntu Server 18.04 installation.
 
